@@ -1,0 +1,34 @@
+{
+  "name": "nodejs_graphql",
+  "version": "1.0.0",
+  "description": "In this project, I created a simple CRUD application using NodeJs and GraphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmwangi729/Nodejs_Graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/samuelmwangi729/Nodejs_Graphql/issues"
+  },
+  "homepage": "https://github.com/samuelmwangi729/Nodejs_Graphql#readme",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "graphql": "^16.14.2",
+    "mongoose": "^9.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
