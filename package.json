@@ -2,11 +2,11 @@
   "name": "nodejs_graphql",
   "version": "1.0.0",
   "description": "In this project, I created a simple CRUD application using NodeJs and GraphQl",
-  "main": "index.js",
+  "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node src/Server.js",
+    "dev": "nodemon src/Server.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "dotenv": "^18.0.7",
     "express": "^5.3.0",
     "graphql": "^16.14.2",
+    "graphql-tag": "^2.12.7",
     "mongoose": "^9.11.1"
   },
   "devDependencies": {
